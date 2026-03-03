@@ -4,7 +4,7 @@ import pandas as pd
 from preprocessing import prepare_features_from_user_input
 
 # Load all model resources
-with open("../models/model_resources.joblib", "rb") as f:
+with open("models/model_resources.joblib", "rb") as f:
     resources = joblib.load(f)
 
 MODEL_PARAMS = resources['model_params']
